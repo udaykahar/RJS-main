@@ -704,7 +704,7 @@ span.select2-dropdown.select2-dropdown--above, .select2-container--open .select2
 /* header css end */ 
 /* banner css start */
 .as_banner_wrapper{
-    background-image: url(http://kamleshyadav.com/html/astrology/version-2/assets/images/bg1.jpg);
+    background-image: url(/assets/images/bg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -938,7 +938,7 @@ span.select2-dropdown.select2-dropdown--above, .select2-container--open .select2
 /* service css end */
 /* zodiec sign css start */
 .as_zodiac_sign_wrapper{
-    background-image: url('http://kamleshyadav.com/html/astrology/version-2/assets/images/bg3.jpg');
+    background-image: url('/assets/images/bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
