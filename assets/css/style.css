@@ -412,6 +412,7 @@ span.select2-dropdown.select2-dropdown--above, .select2-container--open .select2
     /* border-right: 1px solid rgb(255 255 255 / 10%); */
     display: flex;
     align-items: center;
+    /* width: 450px; */
 }
 .as_menu ul {
     padding: 0;
@@ -866,6 +867,9 @@ span.select2-dropdown.select2-dropdown--above, .select2-container--open .select2
     background-color: #07273c;
     padding: 50px 22px;
     margin-top: 30px;
+    border-radius: 3px;
+    height: 320px;
+
 }
 .as_service_box_lesspadding{
     padding: 50px 18px;
@@ -1113,6 +1117,13 @@ li.as_form_box {
     position: relative;
     margin: 50px 15px;
     z-index: 1;
+    height: 300px;
+    /* width: 550px; */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .as_customer_box:before {content: '';position: absolute;top: 75px;transform: translateX(-50%);left: 50%;width: 86px;height: 74px;background-image: url(../images/svg/quote2.svg);z-index: -1;}
 .as_customer_box .as_customer_img>img {
@@ -3177,4 +3188,15 @@ textarea.form-control {
 .as_contact_section{
     z-index: 1000;
     position: static;
+}
+.submit-btn{
+    background-color: #ff7010;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
