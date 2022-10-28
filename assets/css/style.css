@@ -2969,7 +2969,7 @@ a h5{
         height: 80%;
         object-fit: cover;
         object-position: center;
-        filter: brightness(0.8);
+        /* filter: brightness(0.95); */
         /* align right */
         margin: 0 auto;
         padding-top: 40px;
@@ -3172,7 +3172,7 @@ a h5{
     height: 80%;
     object-fit: cover;
     object-position: center;
-    filter: brightness(0.8);
+    filter: brightness(0.90);
     /* align right */
     margin-left: auto;
   }
