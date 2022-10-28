@@ -2693,6 +2693,7 @@ textarea.form-control {
     }
     .as_banner_detail h5 {
         font-size: 18px;
+        margin: 0 auto;
     }
     .as_aboutimg::before,.as_aboutimg::after{
         display:none
@@ -2944,6 +2945,10 @@ textarea.form-control {
         margin-top: 50px;
     }
 }
+a h5{
+    /* in single line */
+    white-space: nowrap;
+}
 @media (max-width:650px){
     .as_about_slider .slick-dots {
         position: absolute;
@@ -2955,6 +2960,20 @@ textarea.form-control {
     }
 }
 @media (max-width:600px){
+
+    .as_customer_box {
+        padding: 10px 20px ;
+    }
+    .main_img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(0.8);
+        /* align right */
+        margin: 0 auto;
+        padding-top: 40px;
+      }
     .as_comment_section >ul>li .as_comnt_detail .as_btn {
         position: relative;
         right: auto;
@@ -2966,8 +2985,9 @@ textarea.form-control {
         display: none !important;
     }
     .as_banner_wrapper {
-        padding: 80px 40px;
+        padding: 40px 40px;
         overflow: hidden;
+
     }
     .as_header_detail {
         width: calc(100% - 0px);
@@ -3049,7 +3069,7 @@ textarea.form-control {
     padding: 40px 18px !important;
 }
 .as_banner_wrapper {
-        padding: 80px 0px;
+        padding: 40px 0px;
     }
     .as_banner_wrapper .slick-dots {
         text-align: center;
@@ -3190,7 +3210,6 @@ textarea.form-control {
     position: static;
 }
 .submit-btn{
-    background-color: #ff7010;
     color: #fff;
     border: none;
     padding: 10px 30px;
@@ -3199,4 +3218,14 @@ textarea.form-control {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-color: #ff7010;
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .calendly-inline-widget {
+        min-height: 1050px;
+        padding: 10px;
+    }
 }
