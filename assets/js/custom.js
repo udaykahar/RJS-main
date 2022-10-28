@@ -291,9 +291,7 @@ $(document).ready(function(){
   
   
 })
-$(window).on('load',function(){
-    $('.as_loader').addClass('hide')
-})
+
 
 
       
