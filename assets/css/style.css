@@ -384,7 +384,7 @@ span.select2-dropdown.select2-dropdown--above, .select2-container--open .select2
     color: var(--secondary-color) !important;
 }
 /* loader */
-.as_loader{
+/* .as_loader{
     position: fixed;
     left: 0;
     top: 0;
@@ -400,7 +400,7 @@ span.select2-dropdown.select2-dropdown--above, .select2-container--open .select2
     animation: spin 7s infinite linear;
     -webkit-animation: spin 7s infinite linear;
     -moz-animation: spin 7s infinite linear;
-}
+} */
 /* header css start */ 
 
 .as_header_wrapper {
